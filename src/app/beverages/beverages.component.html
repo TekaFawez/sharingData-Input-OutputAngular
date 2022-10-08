@@ -1,0 +1,14 @@
+<div class="child">
+  
+    <div class="card w-75">
+        <div class="card-body">
+          <h2 class="card-title">child components</h2>
+          <p class="card-text">today's Beverages: <strong>{{beverges}}</strong></p>
+          <label for="b">ADD new beverage</label> <br>
+          <input type="text" id="beverage-input" #newBreverge>
+          <button  class="btn btn-primary" (click)="addNewBreverge(newBreverge.value)">Add</button>
+        </div>
+      </div>
+      
+</div>
+

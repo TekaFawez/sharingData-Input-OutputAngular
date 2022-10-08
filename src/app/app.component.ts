@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sharingData';
+  currentBevarge="coffee";
+  Beverages= ['milk','juice','coffe','tea']
+  
+addBeverges(newBevreges:string){
+  this.Beverages.push(newBevreges)
+}
+
 }
